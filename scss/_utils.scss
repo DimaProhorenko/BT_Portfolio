@@ -6,6 +6,25 @@
     overflow: hidden;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.py {
+    &-1 {
+        padding: 1rem 0;
+    }
+    &-2 {
+        padding: 2rem 0;
+    }
+    &-3 {
+        padding: 3rem 0;
+    }
+    &-4 {
+        padding: 4rem 0;
+    }
+}
+
 
 // Buttons
 %btn-shared {
@@ -31,4 +50,15 @@ a[class^='btn-']:hover,
 input[class^='btn-']:hover {
     background-color: $main-color;
     color: $light-color;
+}
+
+
+.section-title {
+    font-size: 3.4rem;
+    font-weight: 600;
+}
+
+.section-lead {
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
 }

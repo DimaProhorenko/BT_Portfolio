@@ -5,6 +5,21 @@
   margin: auto;
   overflow: hidden; }
 
+.text-center {
+  text-align: center; }
+
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.py-4 {
+  padding: 4rem 0; }
+
 .btn-light {
   display: inline-block;
   padding: 1rem 1.5rem;
@@ -23,6 +38,14 @@ a[class^='btn-']:hover,
 input[class^='btn-']:hover {
   background-color: #ffbc00;
   color: #f4f4f4; }
+
+.section-title {
+  font-size: 3.4rem;
+  font-weight: 600; }
+
+.section-lead {
+  font-size: 1.8rem;
+  margin-bottom: 4rem; }
 
 * {
   margin: 0;
@@ -107,12 +130,25 @@ img {
     align-items: center;
     height: 100%; }
     #header-home .header-content h1 {
-      font-size: 8rem;
+      font-size: 5rem;
       line-height: 1.2; }
     #header-home .header-content .lead {
-      font-size: 4rem;
+      font-size: 2.5rem;
       font-weight: 500;
       margin-bottom: 1rem; }
     #header-home .header-content a {
       font-size: 1.4rem;
       font-weight: 500; }
+
+#home-a .specials {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2rem; }
+  #home-a .specials i {
+    font-size: 3rem;
+    color: #ffbc00;
+    margin-bottom: .5rem; }
+  #home-a .specials h3 {
+    font-size: 1.8rem; }
+  #home-a .specials p {
+    font-size: 1.6rem; }
