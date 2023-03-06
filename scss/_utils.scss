@@ -56,6 +56,19 @@ input[class^='btn-']:hover {
 .section-title {
     font-size: 3.4rem;
     font-weight: 600;
+    position: relative;
+    margin-bottom: 2rem;
+
+    &::after {
+        content: '';
+        width: 5rem;
+        height: .2rem;
+        background-color: $main-color;
+        position: absolute;
+        bottom: -1rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 .section-lead {
